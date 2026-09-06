@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import config from '../config'
 
 const initialForm = {
   name: '',
@@ -30,9 +31,16 @@ export default function EnquiryForm() {
     if (form.company) return // honeypot triggered, silently drop
     if (!validate()) return
 
-    // No backend is wired up yet. Point this at a form-to-email service
-    // such as Formspree, Netlify Forms, or emailJS, e.g.:
-    // fetch('https://formspree.io/f/your-id', { method: 'POST', body: new FormData(e.target) })
+    const whatsappMessage = [
+      `New enquiry for ${config.businessName}`,
+      `Name: ${form.name.trim()}`,
+      `Mobile: ${form.mobile.trim()}`,
+      `Email: ${form.email.trim() || 'Not provided'}`,
+      `Interested plot size: ${form.plotSize || 'Any size'}`,
+      `Message: ${form.message.trim() || 'Not provided'}`,
+    ].join('\n')
+
+    window.location.href = `https://wa.me/91${config.whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
     setSubmitted(true)
   }
 

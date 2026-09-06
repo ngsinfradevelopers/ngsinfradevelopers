@@ -36,7 +36,7 @@ export default function LayoutViewer() {
           <div className="layout-scroll">
             <img
               src={config.layoutPlanImage}
-              alt="Poorna Gardens plot layout showing individually numbered plots and road widths"
+              alt="NGS INFRA DEVELOPERS showing individually numbered plots and road widths"
               style={{ transform: `scale(${zoom})` }}
             />
           </div>

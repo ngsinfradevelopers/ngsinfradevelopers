@@ -126,6 +126,22 @@ p { line-height: 1.65; }
 }
 .btn-outline-dark:hover { background: var(--oxblood); color: var(--ivory); }
 
+.location-button {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.9rem 1.2rem;
+  border: 1px solid var(--oxblood-bright);
+  border-radius: 2px;
+  background: var(--oxblood-bright);
+  color: var(--ivory);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.location-button:hover { background: var(--oxblood); border-color: var(--gold); }
+
 /* ── Hero ─────────────────────────────────────────────── */
 .hero {
   position: relative;
@@ -150,6 +166,23 @@ p { line-height: 1.65; }
   inset: 0;
   background: linear-gradient(180deg, rgba(11,9,8,0.55) 0%, rgba(11,9,8,0.35) 35%, rgba(11,9,8,0.96) 100%);
 }
+
+.hero-sound-toggle {
+  position: absolute;
+  z-index: 3;
+  top: 1.5rem;
+  right: 1.75rem;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid rgba(243, 234, 217, 0.65);
+  border-radius: 2px;
+  background: rgba(11, 9, 8, 0.48);
+  color: var(--ivory);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.hero-sound-toggle:hover { border-color: var(--gold); color: var(--gold); }
 
 .hero-content {
   position: relative;
@@ -205,15 +238,14 @@ p { line-height: 1.65; }
 .founder-photo-wrap {
   width: 220px;
   height: 220px;
-  border-radius: 50%;
+  border-radius: 2px;
   border: 2px solid var(--gold);
-  padding: 8px;
+  overflow: hidden;
 }
 
 .founder-photo {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
   object-fit: cover;
   background: var(--oxblood-deep);
 }
@@ -221,7 +253,7 @@ p { line-height: 1.65; }
 .founder-photo-fallback {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 0;
   background: linear-gradient(150deg, var(--oxblood-deep), var(--black));
   display: flex;
   align-items: center;

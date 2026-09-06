@@ -35,14 +35,14 @@ export default function Footer() {
 
             <div className="map-wrap">
               <iframe
-                title="Project location map"
+                title={config.locationName}
                 src={config.googleMapsEmbedURL}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
-            <a className="btn btn-outline" style={{ marginTop: '1rem' }} href={config.googleMapsDirectionsURL} target="_blank" rel="noreferrer">
-              Get directions
+            <a className="location-button" href={config.googleMapsDirectionsURL} target="_blank" rel="noreferrer">
+              {config.locationName}
             </a>
 
             <div className="socials">

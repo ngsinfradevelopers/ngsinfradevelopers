@@ -16,40 +16,37 @@ const config = {
   email: "ngsinfradevelopers1@gmail.com",
 
   // Location
-  exactAddress: "Near JNTUK, Narasaraopet | JNTUN to Minnekallu Road, Thangedumalli, Andhra Pradesh 522603",
+  locationName: "NGS Infra Developers — Exact Location",
+  exactAddress: "NGS INFRA DEVELOPERS, 16.1405589, 79.9974128, Thangedumalli, Andhra Pradesh 522603",
   surveyNumber: "21-C1",
-  // Google Maps embed built from the shared location (Plus Code 4XRW+5W3, Thangedumalli).
-  // Replace with a client-confirmed pin if the exact boundary differs.
+  // Google Maps location supplied for the project.
   googleMapsEmbedURL:
-    "https://www.google.com/maps?q=4XRW%2B5W3+Thangedumalli+Andhra+Pradesh+522603&output=embed",
+    "https://www.google.com/maps?q=NGS+INFRA+DEVELOPERS%2C16.1405589%2C79.9974128&output=embed",
   googleMapsDirectionsURL:
-    "https://www.google.com/maps/search/?api=1&query=4XRW%2B5W3+Thangedumalli+Andhra+Pradesh+522603",
+    "https://www.google.com/maps/place/NGS+INFRA+DEVELOPERS/@16.1406804,79.9974314,21z/data=!4m6!3m5!1s0x3a4a85583a480bcd:0xe8c7dfbecb28ab3e!8m2!3d16.1405589!4d79.9974128!16s%2Fg%2F11nvw78_1f?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
 
   // Media — replace with real, licensed assets before launch.
   // Leave projectVideoURL empty to show the static hero image instead of a video.
-  projectVideoURL: "",
+  projectVideoURL: "/assets/ngsinfradevelopers.mp4",
   heroImage: "/assets/layout-plan.png",
   logo: "/assets/logo.png",
   layoutPlanImage: "/assets/layout-plan.png",
 
-  // Founder — replace photo + copy with confirmed details from the client.
+  // Founder profile.
   founder: {
     name: "Shaik Nagur",
     role: "Founder & Managing Partner",
-    photo: "", // add a real photo path here, e.g. "/assets/founder.jpg"
-    bio: "Shaik Nagur founded NGS Infra Developers with a simple goal: make land ownership near Narasaraopet's education corridor straightforward and transparent. The company plans and develops residential plotted layouts with usable roads, clear plot demarcation and honest information for every buyer, backed by a registered establishment under the AP Labour Department.",
+    photo: "/assets/founder.jpeg",
+    bio: "Shaik Nagur founded NGS Infra Developers with a clear commitment to making residential land ownership near Narasaraopet more transparent, accessible and dependable. Under his leadership, the company focuses on thoughtfully planned plotted developments, practical infrastructure and clear communication, helping buyers make confident long-term property decisions.",
   },
 
-  // Site photographs — six labelled slots as requested. These are placeholders;
-  // swap the `src` for real, unedited site photography before publishing so the
-  // gallery never shows illustrative or AI-generated imagery as if it were built.
+  // Site photographs supplied for the gallery.
   sitePhotos: [
-    { id: 1, label: "Site entrance", src: "" },
-    { id: 2, label: "Approach road", src: "" },
-    { id: 3, label: "Plot rows", src: "" },
-    { id: 4, label: "Drone view", src: "" },
-    { id: 5, label: "Layout signage", src: "" },
-    { id: 6, label: "Surrounding greenery", src: "" },
+    { id: 1, label: "Site photograph 1", src: "/assets/site1.jpeg" },
+    { id: 2, label: "Site photograph 2", src: "/assets/site2.jpeg" },
+    { id: 3, label: "Site photograph 3", src: "/assets/site3.jpeg" },
+    { id: 4, label: "Site photograph 4", src: "/assets/site4.jpeg" },
+    { id: 5, label: "Site photograph 5", src: "/assets/site5.jpeg" },
   ],
 
   // Facilities / highlights — shown once as detailed cards, and again as a
@@ -93,7 +90,7 @@ const config = {
   },
 
   socialMediaLinks: {
-    instagram: "#",
+    instagram: "https://www.instagram.com/ngs_infra_developers_?stkn=OWhnMHFldWM0N2du&utm_source=qr",
     youtube: "#",
     facebook: "#",
   },
