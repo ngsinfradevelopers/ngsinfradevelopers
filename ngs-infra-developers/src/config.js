@@ -35,7 +35,7 @@ const config = {
   // Founder profile.
   founder: {
     name: "Shaik Nagur",
-    role: "Founder",
+    role: "Founder, Chairman and Managing Director",
     photo: "/assets/founder.jpeg",
     bio: "Shaik Nagur founded NGS Infra Developers with a clear commitment to making residential land ownership near Narasaraopet more transparent, accessible and dependable. Under his leadership, the company focuses on thoughtfully planned plotted developments, practical infrastructure and clear communication, helping buyers make confident long-term property decisions.",
   },
