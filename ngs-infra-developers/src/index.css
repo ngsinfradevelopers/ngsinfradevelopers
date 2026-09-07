@@ -543,9 +543,54 @@ p { line-height: 1.65; }
 @media (max-width: 700px) { .footer-facilities { grid-template-columns: 1fr 1fr; } }
 
 @media (max-width: 768px) {
+  .container { padding: 0 1rem; }
+
+  .hero-content {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .hero-sound-toggle {
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .hero-sub { font-size: 0.95rem; }
+
+  .hero-ctas,
+  .cta-ctas { gap: 0.7rem; }
+
+  .hero-ctas .btn,
+  .cta-ctas .btn,
+  .location-button { width: 100%; justify-content: center; }
+
+  .contact-section { gap: 2rem; }
+
   .map-container,
   .map-wrap,
   .map-wrap iframe { min-height: 400px; }
+
+  .map-label { margin-top: 0; }
+
+  .footer-enquiry { margin-top: 2.5rem; }
+
+  .footer-facilities { gap: 0.8rem 1rem; }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .nexus-credit { letter-spacing: 0.04em; }
+
+  .whatsapp-float,
+  .call-float {
+    bottom: 1rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  .whatsapp-float { right: 1rem; }
+  .call-float { left: 1rem; }
 }
 
 .footer-facilities div { font-size: 0.85rem; display: flex; gap: 0.5rem; }
