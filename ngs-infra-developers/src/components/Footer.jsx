@@ -33,6 +33,11 @@ export default function Footer() {
 
             <span className="badge">{config.registration.label} — {config.registration.authority}</span>
 
+            <div className="map-label">
+              <strong>NGS INFRA DEVELOPERS</strong>
+              <span>Exact project location</span>
+              <span>{config.exactAddress}</span>
+            </div>
             <div className="map-wrap">
               <iframe
                 title={config.locationName}
