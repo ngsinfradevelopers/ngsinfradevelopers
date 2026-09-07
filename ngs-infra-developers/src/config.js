@@ -21,8 +21,8 @@ const config = {
   surveyNumber: "21-C1", // Keep only if title documents show this
   
   // Google Maps URLs — from your Maps listing
-  googleMapsEmbedURL: "https://www.google.com/maps?q=16.1405589,79.9974128&z=19&output=embed",
-  googleMapsDirectionsURL: "https://maps.app.goo.gl/R9ZJibWm8t8Q9e8S8",
+  googleMapsEmbedURL: "https://www.google.com/maps?q=16.140662,79.997601&z=19&output=embed",
+  googleMapsDirectionsURL: "https://maps.app.goo.gl/SvsNmRGMs8qg2q1b6",
 
   // Media — replace with real, licensed assets before launch.
   // Leave projectVideoURL empty to show the static hero image instead of a video.
