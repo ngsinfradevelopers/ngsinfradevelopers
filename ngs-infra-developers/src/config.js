@@ -21,7 +21,7 @@ const config = {
   surveyNumber: "21-C1", // Keep only if title documents show this
   
   // Google Maps URLs — from your Maps listing
-  googleMapsEmbedURL: "https://www.google.com/maps?q=NGS+INFRA+DEVELOPERS&z=18&output=embed",
+  googleMapsEmbedURL: "https://www.google.com/maps?q=16.1405589,79.9974128&z=19&output=embed",
   googleMapsDirectionsURL: "https://maps.app.goo.gl/R9ZJibWm8t8Q9e8S8",
 
   // Media — replace with real, licensed assets before launch.
