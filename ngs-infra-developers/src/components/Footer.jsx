@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <footer className="footer" id="contact">
       <div className="container section">
-        <div className="footer-top">
-          <div>
+        <div className="contact-section">
+          <div className="contact-info">
             <p className="eyebrow">Contact</p>
             <h2 style={{ color: 'var(--ivory)' }}>{config.businessName}</h2>
             <p style={{ color: 'var(--gold)', fontFamily: 'var(--font-display)', marginTop: '0.4rem' }}>
@@ -32,7 +32,9 @@ export default function Footer() {
             </ul>
 
             <span className="badge">{config.registration.label} — {config.registration.authority}</span>
+          </div>
 
+          <div className="map-container">
             <div className="map-label">
               <strong>NGS INFRA DEVELOPERS</strong>
               <span>Site Survey No. 21</span>
@@ -63,12 +65,12 @@ export default function Footer() {
               </a>
             </div>
           </div>
+        </div>
 
-          <div>
-            <p className="eyebrow">Send an enquiry</p>
-            <h2 style={{ color: 'var(--ivory)', fontSize: '1.6rem' }}>Ask about availability</h2>
-            <EnquiryForm />
-          </div>
+        <div className="footer-enquiry">
+          <p className="eyebrow">Send an enquiry</p>
+          <h2 style={{ color: 'var(--ivory)', fontSize: '1.6rem' }}>Ask about availability</h2>
+          <EnquiryForm />
         </div>
 
         <div className="footer-facilities">
