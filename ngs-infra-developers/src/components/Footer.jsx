@@ -76,6 +76,9 @@ export default function Footer() {
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} {config.businessName}. All rights reserved.</span>
           <span>{config.documentationClaim}</span>
+          <a className="nexus-credit" href={config.bToPNexusURL} target="_blank" rel="noreferrer">
+            Designed by <strong>B TO P NEXUS</strong>
+          </a>
         </div>
       </div>
     </footer>
