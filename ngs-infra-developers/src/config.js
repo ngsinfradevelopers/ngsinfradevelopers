@@ -23,7 +23,7 @@ const config = {
   googleMapsEmbedURL:
     "https://www.google.com/maps?q=NGS+INFRA+DEVELOPERS&output=embed",
   googleMapsDirectionsURL:
-    "https://maps.app.goo.gl/bT1uwQ568WPBzn8K9",
+    "https://maps.app.goo.gl/JrtsvahrbPiLVZwV8?g_st=ac",
 
   // Media — replace with real, licensed assets before launch.
   // Leave projectVideoURL empty to show the static hero image instead of a video.
