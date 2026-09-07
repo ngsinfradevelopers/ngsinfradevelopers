@@ -21,9 +21,9 @@ const config = {
   surveyNumber: "21-C1",
   // Google Maps location supplied for the project.
   googleMapsEmbedURL:
-    "https://www.google.com/maps?q=NGS+INFRA+DEVELOPERS%2C16.1405589%2C79.9974128&output=embed",
+    "https://www.google.com/maps?q=16.1405589,79.9974128&z=17&output=embed",
   googleMapsDirectionsURL:
-    "https://maps.app.goo.gl/y6pyQp3WJHRwoJM56",
+    "https://maps.app.goo.gl/bT1uwQ568WPBzn8K9",
 
   // Media — replace with real, licensed assets before launch.
   // Leave projectVideoURL empty to show the static hero image instead of a video.
