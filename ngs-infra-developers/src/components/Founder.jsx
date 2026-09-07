@@ -15,7 +15,6 @@ export default function Founder() {
           )}
         </div>
         <div>
-          <p className="eyebrow">From the founder</p>
           <h2 className="founder-name">{founder.name}</h2>
           <p className="founder-role">{founder.role}</p>
           <p style={{ maxWidth: '58ch', color: '#4a433a' }}>{founder.bio}</p>

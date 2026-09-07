@@ -23,7 +23,7 @@ const config = {
   googleMapsEmbedURL:
     "https://www.google.com/maps?q=NGS+INFRA+DEVELOPERS%2C16.1405589%2C79.9974128&output=embed",
   googleMapsDirectionsURL:
-    "https://www.google.com/maps/place/NGS+INFRA+DEVELOPERS/@16.1406804,79.9974314,21z/data=!4m6!3m5!1s0x3a4a85583a480bcd:0xe8c7dfbecb28ab3e!8m2!3d16.1405589!4d79.9974128!16s%2Fg%2F11nvw78_1f?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+    "https://maps.app.goo.gl/y6pyQp3WJHRwoJM56",
 
   // Media — replace with real, licensed assets before launch.
   // Leave projectVideoURL empty to show the static hero image instead of a video.
@@ -91,9 +91,11 @@ const config = {
 
   socialMediaLinks: {
     instagram: "https://www.instagram.com/ngs_infra_developers_?stkn=OWhnMHFldWM0N2du&utm_source=qr",
-    youtube: "#",
-    facebook: "#",
+    youtube: "https://www.youtube.com/@NgsInfraDevelopers",
+    facebook: "https://www.facebook.com/profile.php?id=61594260598601",
   },
+
+  bToPNexusURL: "https://btopnexus.vercel.app/",
 }
 
 export default config

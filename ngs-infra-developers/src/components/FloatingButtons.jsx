@@ -20,6 +20,16 @@ export default function FloatingButtons() {
       >
         <PhoneIcon width="22" height="22" />
       </a>
+      <a
+        className="nexus-float"
+        href={config.bToPNexusURL}
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Visit B TO P NEXUS"
+      >
+        <span>B TO P NEXUS</span>
+        <strong>Visit Now</strong>
+      </a>
     </>
   )
 }
