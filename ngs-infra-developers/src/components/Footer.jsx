@@ -35,8 +35,9 @@ export default function Footer() {
 
             <div className="map-label">
               <strong>NGS INFRA DEVELOPERS</strong>
-              <span>Exact project location</span>
-              <span>{config.exactAddress}</span>
+              <span>Site Survey No. 21</span>
+              <span>Near JNTUK University College of Engineering</span>
+              <span>Narasaraopet, Andhra Pradesh</span>
             </div>
             <div className="map-wrap">
               <iframe

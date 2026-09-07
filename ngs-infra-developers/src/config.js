@@ -16,14 +16,15 @@ const config = {
   email: "ngsinfradevelopers1@gmail.com",
 
   // Location
-  locationName: "NGS Infra Developers — Exact Location",
-  exactAddress: "NGS INFRA DEVELOPERS, 16.1405589, 79.9974128, Thangedumalli, Andhra Pradesh 522603",
+  locationName: "NGS INFRA DEVELOPERS — Exact Location",
+  exactAddress:
+    "Site Survey No. 21, NGS INFRA DEVELOPERS, Vinukonda Road, near JNTUK University College of Engineering, Narasaraopet, Andhra Pradesh",
   surveyNumber: "21-C1",
   // Google Maps location supplied for the project.
   googleMapsEmbedURL:
-    "https://www.google.com/maps?q=NGS+INFRA+DEVELOPERS&output=embed",
+    "https://www.google.com/maps?q=NGS+INFRA+DEVELOPERS&z=18&output=embed",
   googleMapsDirectionsURL:
-    "https://maps.app.goo.gl/JrtsvahrbPiLVZwV8?g_st=ac",
+    "https://www.google.com/maps/place/NGS%2BINFRA%2BDEVELOPERS/%4016.1405589%2C79.9974128%2C18z/data%3D%213m1%214b1%214m6%213m5%211s0x3a4a85583a480bcd%3A0xe8c7dfbecb28ab3e%218m2%213d16.1405589%214d79.9974128%2116s%2Fg%2F11nvw78_1f%2118m1%211e1?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D&utm_source=chatgpt.com",
 
   // Media — replace with real, licensed assets before launch.
   // Leave projectVideoURL empty to show the static hero image instead of a video.
