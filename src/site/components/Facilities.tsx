@@ -1,0 +1,28 @@
+// @ts-nocheck
+import { useSiteConfig } from '../SiteConfig'
+import ExtraLines from './ExtraLines'
+
+export default function Facilities() {
+  const config = useSiteConfig()
+  return (
+    <section className="section" id="facilities">
+      <div className="container">
+        <p className="eyebrow">Facilities</p>
+        <h2>What the location gives you</h2>
+
+        <div className="facility-strip">
+          {config.facilities.map((f) => (
+            <div className="facility-row" key={f.title}>
+              <span className="facility-dot" aria-hidden="true" />
+              <div>
+                <h3>{f.title}</h3>
+                <p>{f.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <ExtraLines section="facilities" />
+      </div>
+    </section>
+  )
+}
